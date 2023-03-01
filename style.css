@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+header {
+  /* background: #eee; */
+  text-align: center;
+  padding: 32px 0; 
+
+  background-color: #f1ebd1;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23565459' fill-opacity='0.11'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+header > img {
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+main{
+  padding: 64px 0;
+}
+
+.work h2 {
+  margin: 16px 0 0;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+h2 {
+  margin:16px 0 0;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  margin: 16px 0 0;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+section {
+  width: 400px;
+  margin:32px auto 0;
+}
+
+section > p {
+  margin-top: 16px;
+  /* 行間間隔 */
+  line-height: 1.8;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 64px 0;
+}
+
+small {
+  font-size: 14px;
+  color: #aaa;
+}
+
+address {
+  margin-top: 16px;
+}
+
+a:hover {
+  opacity: .5;
+}
