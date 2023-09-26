@@ -13,11 +13,10 @@ header{
 	display: flex;
 	justify-content: center;
  align-items: center;
-
 }
 h1{
 	font-family: 'DM Serif Display', serif;
-	font-size: 300px;
+	font-size: 16vw;
 	background: url(../img/gifanime.gif) no-repeat center top;
 	-webkit-background-clip: text;
  background-clip: text;
@@ -59,3 +58,33 @@ footer{
 	height: 50vh;
 	background-color: aquamarine;
 }
+
+@media (max-width :640px){
+	header{
+		height: 70vh;
+	}
+	
+	h1{
+		font-size: 20vw;
+	}
+	.video-wrapper{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.video-wrapper:nth-of-type(2){
+		flex-direction: column-reverse;
+		
+	}
+	.video-box{
+		width: 100%;
+		height: 50vh;
+		position: static;
+	}
+	.txt-box {
+		width: 100%;
+	}
+	.txt-box>p{
+		font-size: 16px;
+	}
+}
+
